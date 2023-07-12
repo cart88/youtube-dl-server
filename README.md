@@ -1,3 +1,9 @@
+# 我的心得
+配置文件里面添加，可以增加配置
+proxy: http://admin:654321@10.100.24.221:10811
+升级youtube-dl的方法
+
+/usr/bin/youtube-dl:/usr/local/bin/youtube-dl
 ![Docker Stars Shield](https://img.shields.io/docker/stars/nbr23/youtube-dl-server.svg?style=flat-square)
 ![Docker Pulls Shield](https://img.shields.io/docker/pulls/nbr23/youtube-dl-server.svg?style=flat-square)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/nbr23/youtube-dl-server/master/LICENSE)
