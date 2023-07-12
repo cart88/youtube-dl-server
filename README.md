@@ -3,7 +3,8 @@
 proxy: http://admin:654321@10.100.24.221:10811
 升级youtube-dl的方法
 
-/usr/bin/youtube-dl:/usr/local/bin/youtube-dl
+docker run -d --name youtube-dl -p 8000:8080 -v $HOME/youtube-dl:/youtube-dl -v /usr/bin/youtube-dl:/usr/local/bin/youtube-dl nbr23/youtube-dl-server:latest
+
 ![Docker Stars Shield](https://img.shields.io/docker/stars/nbr23/youtube-dl-server.svg?style=flat-square)
 ![Docker Pulls Shield](https://img.shields.io/docker/pulls/nbr23/youtube-dl-server.svg?style=flat-square)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/nbr23/youtube-dl-server/master/LICENSE)
